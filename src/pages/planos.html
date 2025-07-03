@@ -47,6 +47,7 @@
 
     <!-- Main Content -->
     <main>
+        <div style="height: 40px;"></div>
         <!-- Filtros de Planos -->
         <section class="plans-filter">
             <div class="container">
@@ -56,6 +57,8 @@
                     <button class="filter-btn" data-filter="familiar">Familiar</button>
                     <button class="filter-btn" data-filter="empresarial">Empresarial</button>
                 </div>
+                <p class="filter-description">Filtre os planos de acordo com seu perfil e encontre a melhor opção para
+                    você, sua família ou sua empresa.</p>
             </div>
         </section>
 
@@ -63,23 +66,24 @@
         <section class="plans-section" id="individual-plans">
             <div class="container">
                 <h2 class="section-title">Planos Individuais</h2>
-                <p class="section-subtitle">Proteção completa para você</p>
-
+                <p class="section-subtitle">Proteção completa para você, com atendimento personalizado e ampla
+                    cobertura.</p>
                 <div class="plans-grid">
                     <div class="plan-card" data-aos="fade-up" data-category="individual">
                         <div class="plan-header">
-                            <h3>Plano Básico</h3>
+                            <img src="../img/plan-individual1.png" alt="Plano Essencial" class="plan-icon">
+                            <h3>Essencial</h3>
                             <div class="plan-price">
-                                <span class="price">R$ 199</span>
+                                <span class="price">R$ 189</span>
                                 <span class="period">/mês</span>
                             </div>
                         </div>
                         <div class="plan-features">
                             <ul>
-                                <li><i class="fas fa-check"></i> Consultas médicas ilimitadas</li>
-                                <li><i class="fas fa-check"></i> Exames básicos</li>
+                                <li><i class="fas fa-check"></i> Consultas ilimitadas</li>
+                                <li><i class="fas fa-check"></i> Exames laboratoriais</li>
                                 <li><i class="fas fa-check"></i> Internação hospitalar</li>
-                                <li><i class="fas fa-check"></i> Pronto-socorro</li>
+                                <li><i class="fas fa-check"></i> Pronto-socorro 24h</li>
                                 <li><i class="fas fa-check"></i> Cobertura nacional</li>
                             </ul>
                         </div>
@@ -87,36 +91,36 @@
                             <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
                         </div>
                     </div>
-
                     <div class="plan-card featured" data-aos="fade-up" data-aos-delay="100" data-category="individual">
                         <div class="plan-badge">Mais Popular</div>
                         <div class="plan-header">
-                            <h3>Plano Completo</h3>
+                            <img src="../img/plan-individual2.png" alt="Plano Completo" class="plan-icon">
+                            <h3>Completo</h3>
                             <div class="plan-price">
-                                <span class="price">R$ 349</span>
+                                <span class="price">R$ 329</span>
                                 <span class="period">/mês</span>
                             </div>
                         </div>
                         <div class="plan-features">
                             <ul>
-                                <li><i class="fas fa-check"></i> Todos os benefícios do Básico</li>
+                                <li><i class="fas fa-check"></i> Todos os benefícios do Essencial</li>
                                 <li><i class="fas fa-check"></i> Exames de alta complexidade</li>
                                 <li><i class="fas fa-check"></i> Cirurgias eletivas</li>
                                 <li><i class="fas fa-check"></i> Quarto privativo</li>
-                                <li><i class="fas fa-check"></i> Medicina preventiva</li>
                                 <li><i class="fas fa-check"></i> Telemedicina</li>
+                                <li><i class="fas fa-check"></i> Check-up anual</li>
                             </ul>
                         </div>
                         <div class="plan-footer">
                             <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
                         </div>
                     </div>
-
                     <div class="plan-card" data-aos="fade-up" data-aos-delay="200" data-category="individual">
                         <div class="plan-header">
-                            <h3>Plano Premium</h3>
+                            <img src="../img/plan-individual3.png" alt="Plano Premium" class="plan-icon">
+                            <h3>Premium</h3>
                             <div class="plan-price">
-                                <span class="price">R$ 549</span>
+                                <span class="price">R$ 499</span>
                                 <span class="period">/mês</span>
                             </div>
                         </div>
@@ -142,14 +146,15 @@
         <section class="plans-section" id="familiar-plans">
             <div class="container">
                 <h2 class="section-title">Planos Familiares</h2>
-                <p class="section-subtitle">Proteção para toda a família</p>
-
+                <p class="section-subtitle">Proteção para toda a família, com benefícios exclusivos e atendimento
+                    especial para cada membro.</p>
                 <div class="plans-grid">
                     <div class="plan-card" data-aos="fade-up" data-category="familiar">
                         <div class="plan-header">
+                            <img src="../img/plan-familiar1.png" alt="Família Essencial" class="plan-icon">
                             <h3>Família Essencial</h3>
                             <div class="plan-price">
-                                <span class="price">R$ 599</span>
+                                <span class="price">R$ 579</span>
                                 <span class="period">/mês</span>
                             </div>
                             <p class="plan-subtitle">Até 4 pessoas</p>
@@ -157,8 +162,8 @@
                         <div class="plan-features">
                             <ul>
                                 <li><i class="fas fa-check"></i> Consultas ilimitadas</li>
-                                <li><i class="fas fa-check"></i> Pediatria especializada</li>
-                                <li><i class="fas fa-check"></i> Vacinas infantis</li>
+                                <li><i class="fas fa-check"></i> Pediatria e ginecologia</li>
+                                <li><i class="fas fa-check"></i> Vacinas e check-ups</li>
                                 <li><i class="fas fa-check"></i> Maternidade</li>
                                 <li><i class="fas fa-check"></i> Internação familiar</li>
                             </ul>
@@ -167,13 +172,13 @@
                             <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
                         </div>
                     </div>
-
                     <div class="plan-card featured" data-aos="fade-up" data-aos-delay="100" data-category="familiar">
                         <div class="plan-badge">Recomendado</div>
                         <div class="plan-header">
+                            <img src="../img/plan-familiar2.png" alt="Família Completa" class="plan-icon">
                             <h3>Família Completa</h3>
                             <div class="plan-price">
-                                <span class="price">R$ 899</span>
+                                <span class="price">R$ 849</span>
                                 <span class="period">/mês</span>
                             </div>
                             <p class="plan-subtitle">Até 6 pessoas</p>
@@ -192,12 +197,12 @@
                             <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
                         </div>
                     </div>
-
                     <div class="plan-card" data-aos="fade-up" data-aos-delay="200" data-category="familiar">
                         <div class="plan-header">
+                            <img src="../img/plan-familiar3.png" alt="Família VIP" class="plan-icon">
                             <h3>Família VIP</h3>
                             <div class="plan-price">
-                                <span class="price">R$ 1.299</span>
+                                <span class="price">R$ 1.249</span>
                                 <span class="period">/mês</span>
                             </div>
                             <p class="plan-subtitle">Até 8 pessoas</p>

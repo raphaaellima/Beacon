@@ -9,7 +9,7 @@
         content="Conheça os planos de saúde ideais para você. Somos especialistas em convênios médicos.">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/png" href="../img/logo">
 </head>
 
 <body>
@@ -18,8 +18,11 @@
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <img src="img/logo.png" alt="Beacon Logo" class="logo">
-                    <h2>Beacon</h2>
+                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                        <img src="src/img/logo.png" alt="Beacon Logo" class="logo"
+                            style="display: block; margin: 0 auto;">
+                        <h2 style="text-align: center; margin-top: 4px;">Beacon</h2>
+                    </div>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="Index.html" class="nav-link active">Home</a></li>
@@ -137,7 +140,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="img/logo.png" alt="Beacon Logo">
+                        <img src="src/img/logo.png" alt="Beacon Logo">
                         <h3>Beacon</h3>
                     </div>
                     <p>Sua corretora de confiança para planos de saúde. Cuidando da sua saúde há anos.</p>
@@ -150,10 +153,10 @@
                 <div class="footer-section">
                     <h4>Links Rápidos</h4>
                     <ul>
-                        <li><a href="pages/sobre.html">Quem Somos</a></li>
-                        <li><a href="pages/planos.html">Planos</a></li>
-                        <li><a href="pages/convenios.html">Convênios</a></li>
-                        <li><a href="pages/contato.html">Contato</a></li>
+                        <li><a href="src/pages/sobre.html">Quem Somos</a></li>
+                        <li><a href="src/pages/planos.html">Planos</a></li>
+                        <li><a href="src/pages/convenios.html">Convênios</a></li>
+                        <li><a href="src/pages/contato.html">Contato</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
@@ -173,7 +176,7 @@
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2024 Beacon Corretora. Todos os direitos reservados.</p>
-                <a href="pages/politica.html">Política de Privacidade</a>
+                <a href="src/pages/politica.html">Política de Privacidade</a>
             </div>
         </div>
     </footer>
