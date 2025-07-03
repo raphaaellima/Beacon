@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Saúde - Beacon | Corretora de Planos de Saúde</title>
+    <meta name="description"
+        content="Descubra os melhores planos de saúde para você e sua família. Planos individuais, familiares e empresariais com as melhores operadoras.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="../img/favicon.png">
+</head>
+
+<body>
+    <!-- Header Fixo -->
+    <header class="header-fixed">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <img src="../img/logo.png" alt="Beacon Logo" class="logo">
+                    <h2>Beacon</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="sobre.html" class="nav-link">Quem Somos</a></li>
+                    <li><a href="planos.html" class="nav-link active">Planos</a></li>
+                    <li><a href="convenios.html" class="nav-link">Convênios</a></li>
+                    <li><a href="contato.html" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nossos Planos</h1>
+            <p>Encontre o plano de saúde ideal para suas necessidades</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Filtros de Planos -->
+        <section class="plans-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todos os Planos</button>
+                    <button class="filter-btn" data-filter="individual">Individual</button>
+                    <button class="filter-btn" data-filter="familiar">Familiar</button>
+                    <button class="filter-btn" data-filter="empresarial">Empresarial</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planos Individuais -->
+        <section class="plans-section" id="individual-plans">
+            <div class="container">
+                <h2 class="section-title">Planos Individuais</h2>
+                <p class="section-subtitle">Proteção completa para você</p>
+
+                <div class="plans-grid">
+                    <div class="plan-card" data-aos="fade-up" data-category="individual">
+                        <div class="plan-header">
+                            <h3>Plano Básico</h3>
+                            <div class="plan-price">
+                                <span class="price">R$ 199</span>
+                                <span class="period">/mês</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Consultas médicas ilimitadas</li>
+                                <li><i class="fas fa-check"></i> Exames básicos</li>
+                                <li><i class="fas fa-check"></i> Internação hospitalar</li>
+                                <li><i class="fas fa-check"></i> Pronto-socorro</li>
+                                <li><i class="fas fa-check"></i> Cobertura nacional</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
+                        </div>
+                    </div>
+
+                    <div class="plan-card featured" data-aos="fade-up" data-aos-delay="100" data-category="individual">
+                        <div class="plan-badge">Mais Popular</div>
+                        <div class="plan-header">
+                            <h3>Plano Completo</h3>
+                            <div class="plan-price">
+                                <span class="price">R$ 349</span>
+                                <span class="period">/mês</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Todos os benefícios do Básico</li>
+                                <li><i class="fas fa-check"></i> Exames de alta complexidade</li>
+                                <li><i class="fas fa-check"></i> Cirurgias eletivas</li>
+                                <li><i class="fas fa-check"></i> Quarto privativo</li>
+                                <li><i class="fas fa-check"></i> Medicina preventiva</li>
+                                <li><i class="fas fa-check"></i> Telemedicina</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
+                        </div>
+                    </div>
+
+                    <div class="plan-card" data-aos="fade-up" data-aos-delay="200" data-category="individual">
+                        <div class="plan-header">
+                            <h3>Plano Premium</h3>
+                            <div class="plan-price">
+                                <span class="price">R$ 549</span>
+                                <span class="period">/mês</span>
+                            </div>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Todos os benefícios do Completo</li>
+                                <li><i class="fas fa-check"></i> Cobertura internacional</li>
+                                <li><i class="fas fa-check"></i> Medicina estética</li>
+                                <li><i class="fas fa-check"></i> Suíte hospitalar</li>
+                                <li><i class="fas fa-check"></i> Concierge médico</li>
+                                <li><i class="fas fa-check"></i> Check-ups executivos</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planos Familiares -->
+        <section class="plans-section" id="familiar-plans">
+            <div class="container">
+                <h2 class="section-title">Planos Familiares</h2>
+                <p class="section-subtitle">Proteção para toda a família</p>
+
+                <div class="plans-grid">
+                    <div class="plan-card" data-aos="fade-up" data-category="familiar">
+                        <div class="plan-header">
+                            <h3>Família Essencial</h3>
+                            <div class="plan-price">
+                                <span class="price">R$ 599</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="plan-subtitle">Até 4 pessoas</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Consultas ilimitadas</li>
+                                <li><i class="fas fa-check"></i> Pediatria especializada</li>
+                                <li><i class="fas fa-check"></i> Vacinas infantis</li>
+                                <li><i class="fas fa-check"></i> Maternidade</li>
+                                <li><i class="fas fa-check"></i> Internação familiar</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
+                        </div>
+                    </div>
+
+                    <div class="plan-card featured" data-aos="fade-up" data-aos-delay="100" data-category="familiar">
+                        <div class="plan-badge">Recomendado</div>
+                        <div class="plan-header">
+                            <h3>Família Completa</h3>
+                            <div class="plan-price">
+                                <span class="price">R$ 899</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="plan-subtitle">Até 6 pessoas</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Todos os benefícios do Essencial</li>
+                                <li><i class="fas fa-check"></i> Odontologia completa</li>
+                                <li><i class="fas fa-check"></i> Psicologia familiar</li>
+                                <li><i class="fas fa-check"></i> Medicina esportiva</li>
+                                <li><i class="fas fa-check"></i> Homecare</li>
+                                <li><i class="fas fa-check"></i> Desconto em farmácias</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
+                        </div>
+                    </div>
+
+                    <div class="plan-card" data-aos="fade-up" data-aos-delay="200" data-category="familiar">
+                        <div class="plan-header">
+                            <h3>Família VIP</h3>
+                            <div class="plan-price">
+                                <span class="price">R$ 1.299</span>
+                                <span class="period">/mês</span>
+                            </div>
+                            <p class="plan-subtitle">Até 8 pessoas</p>
+                        </div>
+                        <div class="plan-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i> Todos os benefícios do Completa</li>
+                                <li><i class="fas fa-check"></i> Cobertura mundial</li>
+                                <li><i class="fas fa-check"></i> Medicina preventiva avançada</li>
+                                <li><i class="fas fa-check"></i> Suporte 24h</li>
+                                <li><i class="fas fa-check"></i> Ambulância particular</li>
+                                <li><i class="fas fa-check"></i> Medicina alternativa</li>
+                            </ul>
+                        </div>
+                        <div class="plan-footer">
+                            <a href="#" class="btn-primary plan-btn">Contratar Plano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Planos Empresariais -->
+        <section class="plans-section" id="empresarial-plans">
+            <div class="container">
+                <h2 class="section-title">Planos Empresariais</h2>
+                <p class="section-subtitle">Soluções corporativas personalizadas</p>
+
+                <div class="enterprise-content">
+                    <div class="enterprise-text" data-aos="fade-right">
+                        <h3>Planos sob medida para sua empresa</h3>
+                        <p>Oferecemos soluções completas para empresas de todos os tamanhos, com condições especiais e
+                            atendimento personalizado.</p>
+
+                        <div class="enterprise-features">
+                            <div class="feature-item">
+                                <i class="fas fa-users"></i>
+                                <div>
+                                    <h4>Para qualquer porte</h4>
+                                    <p>Desde pequenas empresas até grandes corporações</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-chart-line"></i>
+                                <div>
+                                    <h4>Condições especiais</h4>
+                                    <p>Descontos progressivos conforme número de vidas</p>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-headset"></i>
+                                <div>
+                                    <h4>Suporte dedicado</h4>
+                                    <p>Gerente de contas exclusivo para sua empresa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="enterprise-image" data-aos="fade-left">
+                        <img src="../img/enterprise-plans.jpg" alt="Planos Empresariais">
+                    </div>
+                </div>
+
+                <div class="enterprise-cta">
+                    <h3>Solicite uma proposta personalizada</h3>
+                    <p>Nossa equipe está pronta para desenvolver a melhor solução para sua empresa</p>
+                    <a href="#" class="btn-primary btn-large" id="whatsapp-empresarial">
+                        <i class="fab fa-whatsapp"></i> Solicitar Proposta
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Como Contratar -->
+        <section class="how-to-hire">
+            <div class="container">
+                <h2 class="section-title">Como Contratar</h2>
+                <div class="steps-grid">
+                    <div class="step-card" data-aos="fade-up">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h4>Consulta Gratuita</h4>
+                            <p>Entre em contato conosco para uma análise gratuita do seu perfil e necessidades</p>
+                        </div>
+                    </div>
+                    <div class="step-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h4>Escolha do Plano</h4>
+                            <p>Apresentamos as melhores opções baseadas na sua análise personalizada</p>
+                        </div>
+                    </div>
+                    <div class="step-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h4>Contratação</h4>
+                            <p>Documentação simples e processo 100% digital para sua comodidade</p>
+                        </div>
+                    </div>
+                    <div class="step-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h4>Ativação</h4>
+                            <p>Seu plano é ativado e você recebe todo o suporte
